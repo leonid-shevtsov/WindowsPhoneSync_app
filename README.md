@@ -2,6 +2,20 @@
 
 This is an OS X script that makes living with a Windows Phone 7 easier.
 
+## Installation
+
+* Install the [Windows Phone 7 Connector](http://www.microsoft.com/windowsphone/en-us/apps/mac-connector.aspx).
+* Download [the WindowsPhoneSync package](https://github.com/leonid-shevtsov/WindowsPhoneSync_app/downloads).
+* Proceed as usual.
+
+## Usage
+
+* Connect your phone.
+* Run the app.
+* Do not touch the computer until the sync is complete.
+* The phone's contents are now copied to `Windows Phone` under your Home folder.
+
+
 ## Problem
 
 It is notoriosly hard to download photos and videos shot with a Windows Phone: it's not mountable as a USB drive, and the only way to access the phone is through the [Windows Phone  7 Connector](http://www.microsoft.com/windowsphone/en-us/apps/mac-connector.aspx); and even the connector only allows you to import the photos into iPhoto or Aperture.
@@ -23,13 +37,6 @@ So I wrote an AppleScript which
 Result: the "Windows Phone" folder contains all files from your phone, with no duplicates.
 
 The procedure is entirely automated, but unfortunately you can't use your Mac while it's running (because it requires keyboard and mouse control).
-
-## Installation
-
-* Install the [Windows Phone 7 Connector](http://www.microsoft.com/windowsphone/en-us/apps/mac-connector.aspx).
-* Download [the WindowsPhoneSync package](https://github.com/leonid-shevtsov/WindowsPhoneSync_app/downloads).
-* Proceed as usual.
-
 
 ## Compilation
 
