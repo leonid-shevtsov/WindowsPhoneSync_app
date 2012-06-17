@@ -24,9 +24,16 @@ Result: the "Windows Phone" folder contains all files from your phone, with no d
 
 The procedure is entirely automated, but unfortunately you can't use your Mac while it's running (because it requires keyboard and mouse control).
 
-## Requirements
+## Installation
 
-The WP7 Connector.
+* Install the [Windows Phone 7 Connector](http://www.microsoft.com/windowsphone/en-us/apps/mac-connector.aspx).
+* Download [the WindowsPhoneSync package](https://github.com/leonid-shevtsov/WindowsPhoneSync_app/downloads).
+* Proceed as usual.
+
+
+## Compilation
+
+You can use the supplied `Makefile` to build the application from source.
 
 * * *
 
